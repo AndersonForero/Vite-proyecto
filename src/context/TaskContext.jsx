@@ -14,7 +14,7 @@ export const TaskContextProvider = (props) => {
         setListaState([
         ...listaState,
         {
-            id: listaState.length,
+            id: (listaState.length + 1) * (Math.random() * 10),
             titulo: nuevaTarea.tarea,
             descripcion: nuevaTarea.descripcion,
         },

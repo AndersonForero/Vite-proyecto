@@ -1,16 +1,16 @@
 export const lista = [
     {
-        id: 0,
+        id: Math.random() * 10,
         titulo: "tituloONE",
         descripcion: "descriptcionDeElementoONE"
     },
     {
-        id: 1,
+        id: 1 * (Math.random() * 10),
         titulo: "tituloTWO",
         descripcion: "descriptcionDeElementoTWO"
     },
     {
-        id: 2,
+        id: 2 * (Math.random() * 10),
         titulo: "tituloTHREE",
         descripcion: "descriptcionDeElementoTHREE"
     }
